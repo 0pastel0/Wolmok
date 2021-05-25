@@ -24,7 +24,15 @@ body {
 .noticeList {
 	list-style-position: inside;
 }
-
+.intTitle {
+	font-size: 25px;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
 div .content {
 	overflow: hidden;
 }
@@ -43,6 +51,9 @@ div .notice {
 	border-width: thin;
 	border-color: black;
 	border-style: solid;
+}
+.middle {
+	overflow: hidden;
 }
 
 #topMenu {
@@ -69,7 +80,7 @@ div .notice {
 }
 #topMenu .menuLink:hover {
 	color: white;
-	background-color: #6E884B;
+	background-color: #d2b96a;
 }
 
 footer {
