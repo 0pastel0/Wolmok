@@ -9,6 +9,9 @@ body {
 	width: 960px ;
 	background-color: #E2E2E2;
 }
+.main_header {
+	height:50px;
+}
 .logo {
 	width: 50px;
 }
@@ -40,14 +43,14 @@ div .notice {
 }
 
 #topMenu {
-	height: 30px; 
-	width: 800px;
+	height: 50px; 
+	width: 904px;
 	display: inline-block;
 }
 #topMenu ul li {
 	list-style: none;
 	color: white;
-	background-color: #2d2d2d;
+	background-color: #C4CFA6;
 	float: left;
 	line-height: 50px;
 	vertical-align: middle;
@@ -55,15 +58,15 @@ div .notice {
 }
 #topMenu .menuLink {
 	text-decoration: none;
-	color: white;
+	color: black;
 	display: block;
-	width: 150px;
+	width: 226px;
 	font-size: 15px;
 	font-weight: bold;
 }
 #topMenu .menuLink:hover {
-	color: red;
-	background-color: #4d4d4d;
+	color: white;
+	background-color: #6E884B;
 }
 
 footer {
