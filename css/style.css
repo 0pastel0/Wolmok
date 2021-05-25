@@ -21,6 +21,9 @@ body {
 .main_board {
 	background-color: white;
 }
+.noticeList {
+	list-style-position: inside;
+}
 
 div .content {
 	overflow: hidden;
