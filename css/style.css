@@ -9,6 +9,22 @@ body {
 	width: 960px ;
 	background-color: #E2E2E2;
 }
+table{
+	border : 0px;
+	border-collapse: collapse
+	
+}
+td { 
+	border : 0
+}
+th {
+	border : 0px;
+	background-color: burlywood
+}
+tr {
+	border-bottom: dotted;
+	border-width: 2px;
+}
 .main_header {
 	height:50px;
 }
@@ -20,9 +36,12 @@ body {
 }
 .main_board {
 	background-color: white;
+	overflow: hidden;
 }
 .noticeList {
 	list-style-position: inside;
+	margin-top: 10px;
+	margin-left: 10px;
 }
 .intTitle {
 	font-size: 25px;
@@ -33,6 +52,7 @@ body {
 .right {
 	float: right;
 }
+
 div .content {
 	overflow: hidden;
 }
@@ -54,6 +74,49 @@ div .notice {
 }
 .middle {
 	overflow: hidden;
+}
+#head .profile {
+	list-style: none;
+	margin-top: 50px;
+	text-align: center;
+	float: left;
+	margin-left: 70px;
+	margin-right: 70px;
+	height: 400px;
+	width: 300px;
+}
+#head .sub {
+	margin-top: 10px;
+	font-style: italic;
+}
+#head .name {
+	margin-top: 10px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#tail .profile {
+	list-style: none;
+	margin-top: 50px;
+	text-align: center;
+	float: left;
+	margin-left: 70px;
+	margin-right: 70px;
+	height: 400px;
+	width: 300px;
+}
+#tail .sub {
+	margin-top: 10px;
+	font-style: italic;
+}
+#tail .name {
+	margin-top: 10px;
+	font-weight: bold;
+	font-size: 20px;
+}
+#tail .plus {
+	color: #299F1B;
+	margin-top: 10px;
 }
 
 #topMenu {
