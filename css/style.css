@@ -9,6 +9,8 @@ body {
 	width: 960px ;
 	background-color: #E2E2E2;
 }
+
+/*여기부터 표*/
 table{
 	border : 0px;
 	border-collapse: collapse
@@ -25,6 +27,8 @@ tr {
 	border-bottom: dotted;
 	border-width: 2px;
 }
+/*여기까지 표*/
+
 .main_header {
 	height:50px;
 }
@@ -34,17 +38,29 @@ tr {
 .profileImg {
 	width: 200px;
 }
+.activityImg {
+	width: 300px;
+}
 .main_board {
 	background-color: white;
 	overflow: hidden;
+	padding-bottom: 30px;
 }
 .noticeList {
 	list-style-position: inside;
-	margin-top: 10px;
+	margin-top: 30px;
 	margin-left: 10px;
 }
 .intTitle {
 	font-size: 25px;
+}
+.intleftpic{
+	padding-right: 20px;
+	float: left;
+}
+.intrightpic{
+	padding-left: 20px;
+	float: right;
 }
 .left {
 	float: left;
@@ -52,6 +68,10 @@ tr {
 .right {
 	float: right;
 }
+.more {
+	float: right;
+	padding-right: 20px;
+} /*더보기*/
 
 div .content {
 	overflow: hidden;
@@ -63,6 +83,7 @@ div .activity {
 	border-width: thin;
 	border-color: black;
 	border-style: solid;
+	padding-top: 10px;
 }
 div .notice {
 	float: right;
@@ -71,19 +92,24 @@ div .notice {
 	border-width: thin;
 	border-color: black;
 	border-style: solid;
+	padding-top: 10px;
 }
 .middle {
 	overflow: hidden;
-}
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 50px;
+} /*본문*/
+
 #head .profile {
 	list-style: none;
 	margin-top: 50px;
 	text-align: center;
 	float: left;
-	margin-left: 70px;
-	margin-right: 70px;
+	margin-left: 80px;
+	margin-right: 80px;
 	height: 400px;
-	width: 300px;
+	width: 310px;
 }
 #head .sub {
 	margin-top: 10px;
@@ -100,10 +126,10 @@ div .notice {
 	margin-top: 50px;
 	text-align: center;
 	float: left;
-	margin-left: 70px;
-	margin-right: 70px;
+	margin-left: 80px;
+	margin-right: 80px;
 	height: 400px;
-	width: 300px;
+	width: 310px;
 }
 #tail .sub {
 	margin-top: 10px;
