@@ -1,5 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
+/*공통*/
 * {
 	margin: 0;
 	padding: 0;
@@ -9,81 +10,62 @@ body {
 	width: 960px ;
 	background-color: #E2E2E2;
 }
-
-/*여기부터 표*/
-table{
-	border : 0px;
-	border-collapse: collapse
-	
-}
-td { 
-	border : 0
-}
-th {
-	border : 0px;
-	background-color: burlywood
-}
-tr {
-	border-bottom: dotted;
-	border-width: 2px;
-}
-/*여기까지 표*/
-
 .main_header {
 	height:50px;
 }
 .logo {
 	width: 50px;
 }
-.profileImg {
-	width: 200px;
-}
-.activityImg {
-	width: 300px;
-}
 .main_board {
 	background-color: white;
 	overflow: hidden;
 }
-.noticeList {
-	list-style-position: inside;
-	margin-top: 30px;
-	margin-left: 10px;
+#topMenu {
+	height: 50px; 
+	width: 904px;
+	display: inline-block;
 }
-.intTitle {
-	font-size: 25px;
-}
-.intleftpic{
-	padding-right: 20px;
+#topMenu ul li {
+	list-style: none;
+	color: white;
+	background-color: #C4CFA6;
 	float: left;
+	line-height: 50px;
+	vertical-align: middle;
+	text-align: center;
 }
-.intrightpic{
-	padding-left: 20px;
-	float: right;
+#topMenu .menuLink {
+	text-decoration: none;
+	color: black;
+	display: block;
+	width: 226px;
+	font-size: 15px;
+	font-weight: bold;
+}
+#topMenu .menuLink:hover {
+	color: white;
+	background-color: #d2b96a;
 }
 .left {
 	float: left;
-}
+}/*왼쪽정렬*/
 .right {
 	float: right;
-}
-.more {
-	float: right;
-	padding-right: 20px;
-} /*더보기*/
+}/*오른쪽정렬*/
 
-.news_title {
-	padding-top: 20px
-}/* 공지 제목t */
-.inf {
-	text-align : right;
-	padding-right : 15px;
-}/* 공지 우측 정보 */
-.news_p {
-	text-align: left;
-	padding-left : 40px;
-	padding-bottom: 50px;
-}/* 공지 내 */
+.middle {
+	overflow: hidden;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 50px;
+} /*본문*/
+footer {
+	text-align: center;
+}
+.video {
+	display: block;
+}
+/*공통*/
 
 div .content {
 	overflow: hidden;
@@ -106,13 +88,28 @@ div .notice {
 	border-style: solid;
 	padding-top: 10px;
 }
-.middle {
-	overflow: hidden;
-	padding-left: 50px;
-	padding-right: 50px;
-	padding-top: 50px;
-} /*본문*/
+.more {
+	float: right;
+	padding-right: 20px;
+} /*더보기*/
 
+/*회사소개*/
+.intTitle {
+	font-size: 25px;
+}
+.intleftpic{
+	padding-right: 20px;
+	float: left;
+}
+.intrightpic{
+	padding-left: 20px;
+	float: right;
+} /*회사소개*/
+
+/*임직원소개*/
+.profileImg {
+	width: 200px;
+}
 #head .profile {
 	list-style: none;
 	margin-top: 50px;
@@ -155,35 +152,47 @@ div .notice {
 #tail .plus {
 	color: #299F1B;
 	margin-top: 10px;
-}
+}/*임직원소개*/
 
-#topMenu {
-	height: 50px; 
-	width: 904px;
-	display: inline-block;
+/*여기부터 표*/
+table{
+	border : 0px;
+	border-collapse: collapse
+	
 }
-#topMenu ul li {
-	list-style: none;
-	color: white;
-	background-color: #C4CFA6;
-	float: left;
-	line-height: 50px;
-	vertical-align: middle;
-	text-align: center;
+td { 
+	border : 0
 }
-#topMenu .menuLink {
-	text-decoration: none;
-	color: black;
-	display: block;
-	width: 226px;
-	font-size: 15px;
-	font-weight: bold;
+th {
+	border : 0px;
+	background-color: burlywood
 }
-#topMenu .menuLink:hover {
-	color: white;
-	background-color: #d2b96a;
+tr {
+	border-bottom: dotted;
+	border-width: 2px;
 }
+/*여기까지 표*/
 
-footer {
-	text-align: center;
+.activityImg {
+	width: 300px;
+}/*활동사진*/
+
+/*공지사항*/
+.noticeList {
+	list-style-position: inside;
+	margin-top: 30px;
+	margin-left: 10px;
 }
+.news_title {
+	padding-top: 20px
+}/* 공지 제목 */
+.inf {
+	text-align : right;
+	padding-right : 15px;
+}/* 공지 우측 정보 */
+.news_p {
+	text-align: left;
+	padding-left : 40px;
+	padding-bottom: 50px;
+}/* 공지 내 */
+/*공지사항*/
