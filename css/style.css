@@ -44,7 +44,6 @@ tr {
 .main_board {
 	background-color: white;
 	overflow: hidden;
-	padding-bottom: 30px;
 }
 .noticeList {
 	list-style-position: inside;
