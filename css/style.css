@@ -91,7 +91,8 @@ div .notice {
 .more {
 	float: right;
 	padding-right: 20px;
-} /*더보기*/
+	padding-bottom: 10px;
+} /*더보기, 목록*/
 
 /*회사소개*/
 .intTitle {
