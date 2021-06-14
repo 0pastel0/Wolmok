@@ -96,6 +96,7 @@ div .notice {
 /*회사소개*/
 .intTitle {
 	font-size: 25px;
+	padding-bottom: 5px;
 }
 .intleftpic{
 	padding-right: 20px;
