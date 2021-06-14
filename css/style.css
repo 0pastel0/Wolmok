@@ -185,6 +185,11 @@ tr {
 	margin-top: 30px;
 	margin-left: 10px;
 }
+.listnum {
+	text-align: center;
+	padding-bottom: 10px;
+	padding-top: 10px
+}
 .news_title {
 	padding-top: 20px
 }/* 공지 제목 */
